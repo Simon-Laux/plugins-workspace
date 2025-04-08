@@ -1,5 +1,13 @@
 # Changelog
 
+## \[2.4.0]
+
+- [`9629c2f4`](https://github.com/tauri-apps/plugins-workspace/commit/9629c2f4f90a56b5c2d265d1d13d3af40fc0c525) ([#2600](https://github.com/tauri-apps/plugins-workspace/pull/2600) by [@exoego](https://github.com/tauri-apps/plugins-workspace/../../exoego)) Adds a new varient `TargetKind::Dispatch` that allows you to construct arbitrary log targets
+
+### feat
+
+- [`60fc35d3`](https://github.com/tauri-apps/plugins-workspace/commit/60fc35d35cccaf1654eceb4446ecf0f89dc15502) ([#2576](https://github.com/tauri-apps/plugins-workspace/pull/2576) by [@3lpsy](https://github.com/tauri-apps/plugins-workspace/../../3lpsy)) Add a `tracing` feature to the `log` plugin that emits log messages to the `tracing` system.
+
 ## \[2.3.1]
 
 - [`1bb1ced5`](https://github.com/tauri-apps/plugins-workspace/commit/1bb1ced53820127204aa7adf57510c1cbce55e12) ([#2524](https://github.com/tauri-apps/plugins-workspace/pull/2524) by [@elwerene](https://github.com/tauri-apps/plugins-workspace/../../elwerene)) enable TargetKind::LogDir on mobile
